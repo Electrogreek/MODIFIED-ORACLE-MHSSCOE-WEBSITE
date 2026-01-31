@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events - Oracle Academy</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+       <div class="container">
+            <div class="nav-brand">
+                 <div class="logo-placeholder">
+                <img src="images/MHSSCE.webp" alt="Oracle Academy Logo" class="logo">
+                </div>
+                <div class="logo-placeholder">
+                <img src="images/logo.jpeg" alt="Oracle Academy Logo" class="logo">
+                </div>
+               
+                <span class="brand-text">Oracle Academy</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="committee.html" class="nav-link">Committee</a></li>
+                    <li><a href="events.html" class="nav-link active">Events</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title animate-fade-in">Events & Workshops</h1>
+            <p class="page-subtitle animate-fade-in-delay">Join our exciting events and enhance your technical skills</p>
+        </div>
+    </section>
+
+    <!-- Events Filter -->
+    <section class="events-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Events</button>
+                <button class="filter-btn" data-filter="upcoming">Upcoming</button>
+                <button class="filter-btn" data-filter="workshops">Workshops</button>
+                <button class="filter-btn" data-filter="seminars">Seminars</button>
+                <button class="filter-btn" data-filter="competitions">Competitions</button>
+                <button class="filter-btn" data-filter="webinar">Webinar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Grid -->
+    <div class="events-grid">
+    <!-- Inauguration Ceremony 2023–2024 -->
+    <div class="event-card" data-category="all seminars">
+        <div class="event-content">
+            <div class="event-meta">
+                <span class="event-date"><i class="fas fa-calendar"></i>2023–2024</span>
+                <span class="event-category">Seminar</span>
+            </div>
+            <h3 class="event-title">Oracle Inauguration Ceremony 2023–2024</h3>
+            <p class="event-venue">Venue: Seminar Hall</p>
+        </div>
+    </div>
+
+    <!-- Oracle Visit -->
+    <div class="event-card" data-category="all seminars">
+        <div class="event-content">
+            <div class="event-meta">
+                <span class="event-date"><i class="fas fa-calendar"></i>12 August 2024</span>
+                <span class="event-category">Seminar</span>
+            </div>
+            <h3 class="event-title">Oracle Visit</h3>
+            <p class="event-venue">Venue: Oracle Head Office</p>
+        </div>
+    </div>
+
+    <!-- Academia Industry Interaction Delegates Visit -->
+    <div class="event-card" data-category="all seminars">
+        <div class="event-content">
+            <div class="event-meta">
+                <span class="event-date"><i class="fas fa-calendar"></i>13 August 2024</span>
+                <span class="event-category">Seminar</span>
+            </div>
+            <h3 class="event-title">Academia Industry Interaction Delegates Visit</h3>
+            <p class="event-venue">Venue: Seminar Hall</p>
+        </div>
+    </div>
+
+    <!-- Oracle Inauguration Ceremony 2024–2025 -->
+    <div class="event-card" data-category="all seminars">
+        <div class="event-content">
+            <div class="event-meta">
+                <span class="event-date"><i class="fas fa-calendar"></i>2024–2025</span>
+                <span class="event-category">Seminar</span>
+            </div>
+            <h3 class="event-title">Oracle Inauguration Ceremony 2024–2025</h3>
+            <p class="event-venue">Venue: Seminar Hall</p>
+        </div>
+    </div>
+
+    <!-- Oracle Cloud Infrastructure & Database Seminar -->
+    <div class="event-card" data-category="all seminars">
+        <div class="event-content">
+            <div class="event-meta">
+                <span class="event-date"><i class="fas fa-calendar"></i>20 January 2025</span>
+                <span class="event-category">Seminar</span>
+            </div>
+            <h3 class="event-title">Oracle Cloud Infrastructure & Database Seminar</h3>
+            <p class="event-venue">Venue: Seminar Hall</p>
+        </div>
+    </div>
+
+    <!-- Oracle Apex Workshop -->
+    <div class="event-card" data-category="all workshops">
+        <div class="event-content">
+            <div class="event-meta">
+                <span class="event-date"><i class="fas fa-calendar"></i>20 January 2025</span>
+                <span class="event-category">Workshop</span>
+            </div>
+            <h3 class="event-title">Oracle Apex Workshop</h3>
+            <p class="event-venue">Venue: CC Lab Ground Floor</p>
+        </div>
+    </div>
+
+    <!-- Oracle Apex Utsav -->
+    <div class="event-card" data-category="all seminars">
+        <div class="event-content">
+            <div class="event-meta">
+                <span class="event-date"><i class="fas fa-calendar"></i>8 March 2025</span>
+                <span class="event-category">Seminar</span>
+            </div>
+            <h3 class="event-title">Oracle Apex Utsav</h3>
+            <p class="event-venue">Venue: Bharatiya Vidyapeeth, Pune</p>
+        </div>
+    </div>
+
+    <!-- Oracle Race to Free Certification -->
+    <div class="event-card" data-category="all competitions">
+        <div class="event-content">
+            <div class="event-meta">
+                <span class="event-date"><i class="fas fa-calendar"></i>Valid Till 31 Oct 2025</span>
+                <span class="event-category">Competition</span>
+            </div>
+            <h3 class="event-title">Oracle Race to Free Certification</h3>
+        </div>
+    </div>
+
+    <!-- Training and Certification -->
+    <div class="event-card" data-category="all workshops">
+        <div class="event-content">
+            <div class="event-meta">
+                <span class="event-date"><i class="fas fa-calendar"></i>17 July 2025</span>
+                <span class="event-category">Workshop</span>
+            </div>
+            <h3 class="event-title">Training and Certification</h3>
+            <p class="event-venue">Venue: Seminar Hall</p>
+        </div>
+    </div>
+
+    <!-- Deep Dive into Java, Virtual Webcast Event by Oracle Academy (Webinar) -->
+    <div class="event-card" data-category="all webinar">
+        <div class="event-content">
+            <div class="event-meta">
+                <span class="event-date"><i class="fas fa-calendar"></i>13 August 2025</span>
+                <span class="event-category">Webinar</span>
+            </div>
+            <h3 class="event-title">Deep Dive into Java, Virtual Webcast Event by Oracle Academy</h3>
+        </div>
+    </div>
+    
+    <!-- Oracle Inaugration and felicitation Ceremony -->
+    <div class="event-card" data-category="all seminars">
+        <div class="event-content">
+            <div class="event-meta">
+              <span class="event-date"><i class="fas fa-calendar"></i>29 september 2025</span>
+                <span class="event-category">seminar </span>
+            </div>
+            <h3 class="event-title">Oracle Inaugration and felicitation Ceremony 2025-2026</h3>
+            <p class="event-venue">Venue: Seminar Hall</p>
+        </div>
+    </div>
+
+    <!-- Oracle Workshop 2.0 (Upcoming) -->
+    <div class="event-card" data-category="all upcoming workshops">
+        <div class="event-content">
+            <div class="event-meta">
+                <span class="event-date"><i class="fas fa-calendar"></i>Coming Soon</span>
+                <span class="event-category">Upcoming</span>
+            </div>
+            <h3 class="event-title">Oracle Workshop 2.0</h3>
+        </div>
+    </div>
+
+</div>
+
+
+    <!-- Event Gallery Section -->
+<section class="gallery-section">
+  <div class="container">
+    <h2 class="section-title">Event Gallery</h2>
+
+    <!-- Swiper -->
+    <div class="swiper gallery-swiper">
+      <div class="swiper-wrapper">
+
+        <!-- Inauguration Ceremony 2023–2024 -->
+        <div class="swiper-slide">
+          <img src="images/gallery/inaugration-2023-2024.jpg" alt="Inauguration Ceremony 2023-2024">
+          <div class="gallery-caption">Inauguration Ceremony 2023–2024</div>
+        </div>
+
+        <!-- Oracle Visit -->
+        <div class="swiper-slide">
+          <img src="images/gallery/Screenshot-2025-08-15-175116.jpg" alt="Oracle Visit">
+          <div class="gallery-caption">Oracle Visit – Oracle Head Office</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/Screenshot-2025-08-15-175056.jpg" alt="Oracle Visit">
+          <div class="gallery-caption">Oracle Visit – Oracle Head Office</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/Screenshot-2025-08-15-175107.jpg" alt="Oracle Visit">
+          <div class="gallery-caption">Oracle Visit – Oracle Head Office</div>
+        </div>
+
+        <!-- Academia Industry Interaction Delegates Visit -->
+        <div class="swiper-slide">
+          <img src="images/gallery/20240813_115838.jpg" alt="Academia Industry Interaction Delegates Visit">
+          <div class="gallery-caption">Academia Industry Interaction Delegates Visit</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/20240813_111528.jpg" alt="Academia Industry Interaction Delegates Visit">
+          <div class="gallery-caption">Academia Industry Interaction Delegates Visit</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/20240813_111510.jpg" alt="Academia Industry Interaction Delegates Visit">
+          <div class="gallery-caption">Academia Industry Interaction Delegates Visit</div>
+        </div>
+
+        <!-- Inauguration Ceremony 2024–2025 -->
+        <div class="swiper-slide">
+          <img src="images/gallery/inaugration-2024-2025.jpg" alt="Inauguration Ceremony 2024-2025">
+          <div class="gallery-caption">Inauguration Ceremony 2024–2025</div>
+        </div>
+
+        <!-- Oracle Cloud Infrastructure & Database Seminar -->
+        <div class="swiper-slide">
+          <img src="images/gallery/IMG_1936.jpg" alt="Oracle Cloud Infrastructure & Database Seminar">
+          <div class="gallery-caption">Oracle Cloud Infrastructure & Database Seminar</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/IMG_20250120_104726443.jpg" alt="Oracle Cloud Infrastructure & Database Seminar">
+          <div class="gallery-caption">Oracle Cloud Infrastructure & Database Seminar</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/IMG_1913.jpg" alt="Oracle Cloud Infrastructure & Database Seminar">
+          <div class="gallery-caption">Oracle Cloud Infrastructure & Database Seminar</div>
+        </div>
+
+        <!-- Oracle Apex Workshop -->
+        <div class="swiper-slide">
+          <img src="images/gallery/IMG_20250120_155951682-1.jpg" alt="Oracle Apex Workshop">
+          <div class="gallery-caption">Oracle Apex Workshop</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/IMG_2007.jpg" alt="Oracle Apex Workshop">
+          <div class="gallery-caption">Oracle Apex Workshop</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/IMG_2017.jpg" alt="Oracle Apex Workshop">
+          <div class="gallery-caption">Oracle Apex Workshop</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/IMG_2052.jpg" alt="Oracle Apex Workshop">
+          <div class="gallery-caption">Oracle Apex Workshop</div>
+        </div>
+
+        <!-- Oracle Apex Utsav -->
+        <div class="swiper-slide">
+          <img src="images/gallery/WhatsApp-Image-2025-08-15-at-17.29.23_3f0e0953.jpg" alt="Oracle Apex Utsav">
+          <div class="gallery-caption">Oracle Apex Utsav – Bharatiya Vidyapeeth</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/WhatsApp-Image-2025-08-15-at-17.29.25_29bc0205.jpg" alt="Oracle Apex Utsav">
+          <div class="gallery-caption">Oracle Apex Utsav – Bharatiya Vidyapeeth</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/WhatsApp-Image-2025-08-15-at-17.29.24_32f9b8ef.jpg" alt="Oracle Apex Utsav">
+          <div class="gallery-caption">Oracle Apex Utsav – Bharatiya Vidyapeeth</div>
+        </div>
+
+        <!-- Training and Certification -->
+        <div class="swiper-slide">
+          <img src="images/gallery/WhatsApp-Image-2025-08-15-at-17.38.20_a9b21b9c.jpg" alt="Training and Certification">
+          <div class="gallery-caption">Training and Certification</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/training-Certitification.jpg" alt="Training and Certification">
+          <div class="gallery-caption">Training and Certification</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/WhatsApp-Image-2025-08-15-at-17.38.19_782f88f7.jpg" alt="Training and Certification">
+          <div class="gallery-caption">Training and Certification</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/WhatsApp-Image-2025-08-15-at-17.38.19_0ca81945.jpg" alt="Training and Certification">
+          <div class="gallery-caption">Training and Certification</div>
+        </div>
+
+        <!-- Deep Dive into Java Webinar -->
+        <div class="swiper-slide">
+          <img src="images/gallery/WhatsApp-Image-2025-08-15-at-17.34.35_391a4032.jpg" alt="Deep Dive into Java Webinar">
+          <div class="gallery-caption">Deep Dive into Java, Virtual Webcast – Oracle Academy</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/WhatsApp-Image-2025-08-15-at-17.34.37_8675cda9.jpg" alt="Deep Dive into Java Webinar">
+          <div class="gallery-caption">Deep Dive into Java, Virtual Webcast – Oracle Academy</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/WhatsApp-Image-2025-08-15-at-17.34.36_a0169ecc.jpg" alt="Deep Dive into Java Webinar">
+          <div class="gallery-caption">Deep Dive into Java, Virtual Webcast – Oracle Academy</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/Java-Webinar.jpg" alt="Deep Dive into Java Webinar">
+          <div class="gallery-caption">Deep Dive into Java, Virtual Webcast – Oracle Academy</div>
+        </div>
+
+        <!-- Inauguration Ceremony 2025–2026 -->
+         <div class="swiper-slide">
+          <img src="images/gallery/IMG_0900 (1).jpg" alt="Inauguration & Felicitation Ceremony 2025–2026">
+          <div class="gallery-caption">Inauguration & Felicitation Ceremony 2025–2026</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/Felicitation (2).jpg" alt="Inauguration & Felicitation Ceremony 2025–2026">
+          <div class="gallery-caption">Inauguration & Felicitation Ceremony 2025–2026</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/felicitation.jpg" alt="Inauguration & Felicitation Ceremony 2025–2026">
+          <div class="gallery-caption">Inauguration & Felicitation Ceremony 2025–2026</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/gallery/Felicitation.png" alt="Inauguration & Felicitation Ceremony 2025–2026">
+          <div class="gallery-caption">Inauguration & Felicitation Ceremony 2025–2026</div>
+        </div>
+      </div>
+
+      <!-- Navigation + Pagination -->
+      <div class="swiper-button-next" style="color: #CC0000 ;"></div>
+      <div class="swiper-button-prev" style="color: #CC0000 ;"></div>
+      <div class="swiper-pagination" style="color: #CC0000;"></div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="logo-placeholder">
+                        <img src="images/logo.jpeg" alt="Oracle Academy Logo" class="footer-logo">
+                        </div>
+                        <span class="footer-brand-text">Oracle Academy</span>
+                    </div>
+                    <p class="footer-description">Empowering the next generation of technology leaders through Oracle's comprehensive educational program.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="committee.html">Committee</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> M. H. Saboo Siddik College of Engineering, Mumbai</p>
+                        <p><i class="fas fa-envelope"></i> oracle.academy@mhssce.ac.in</p>
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/oracle-academy-mhssce-6514ba387/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/oracle_mhsscoe/" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Oracle Academy - M. H. Saboo Siddik College of Engineering. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Init Swiper -->
+ <script>
+  const swiper = new Swiper('.gallery-swiper', {
+    loop: true,
+    spaceBetween: 20,
+    slidesPerView: 1,
+    autoplay: {
+      delay: 3000, 
+      disableOnInteraction: false, 
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 }
+    }
+  });
+</script>
+
+    <script>
+    // Events filter functionality
+    document.addEventListener('DOMContentLoaded', () => {
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const eventCards = document.querySelectorAll('.event-card');
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                filterButtons.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                const filter = this.dataset.filter.toLowerCase();
+
+                eventCards.forEach(card => {
+                    const categories = card.dataset.category.toLowerCase();
+                    if (filter === 'all' || categories.includes(filter)) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    });
+    </script>
+</body>
+</html>

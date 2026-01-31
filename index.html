@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oracle Academy - M. H. Saboo Siddik College of Engineering</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+     
+      .modal { display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; overflow:auto; background:rgba(0,0,0,0.5);}
+      .modal-content { background:#fff; margin:4% auto; padding:20px 32px; border-radius:10px; width:90%; max-width:540px; position:relative; box-shadow:0 2px 12px rgba(0,0,0,0.15);}
+      .close { position:absolute; top:12px; right:24px; font-size:32px; cursor:pointer; color:#666;}
+      .cert-gallery { display:flex; flex-wrap:wrap; gap:16px; justify-content:center;}
+      .cert-thumb { width:130px; height:auto; border-radius:4px; cursor:pointer; box-shadow:0 1px 4px rgba(0,0,0,0.09);}
+      .cert-thumb:hover { box-shadow:0 4px 20px rgba(0,0,0,0.22);}
+      .cert-link {
+  color: #e53935;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.cert-link:hover {
+  text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container">
+            <div class="nav-brand">
+                 <div class="logo-placeholder">
+                 <img src="images/MHSSCE.webp" alt="Oracle Academy Logo" class="logo">
+                 </div>
+                 <div class="logo-placeholder">
+                 <img src="images/logo.jpeg" alt="Oracle Academy Logo" class="logo">
+                 </div>
+                 <span class="brand-text">Oracle Academy</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="committee.html" class="nav-link">Committee</a></li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title animate-fade-in">Welcome to Oracle Academy  MHSSCOE</h1>
+                <p class="hero-subtitle animate-fade-in-delay">Empowering students with cutting-edge technology skills at M. H. Saboo Siddik College of Engineering</p>
+                <div class="hero-buttons animate-fade-in-delay-2">
+                    <a href="about.html" class="btn btn-primary">Learn More</a>
+                    <a href="events.html" class="btn btn-secondary">Upcoming Events</a>
+                </div>
+            </div>
+        </div>
+    
+<div class="hero-images-grid">
+  <div class="bubble" style="--delay: 0s;"><img src="images/gallery/homepage-img1.jpeg" alt="Oracle Academy Event"></div>
+  <div class="bubble" style="--delay: 0.3s;"><img src="images/gallery/homepage-img2.jpeg" alt="Students Learning"></div>
+  <div class="bubble" style="--delay: 0.6s;"><img src="images/gallery/homepage-img3.jpeg" alt="Workshop Session"></div>
+  <div class="bubble" style="--delay: 0.9s;"><img src="images/gallery/homepage-img4.jpeg" alt="Technology Training"></div>
+</div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Oracle Academy?</h2>
+            <div class="features-grid">
+                <div class="feature-card animate-slide-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Expert Learning</h3>
+                    <p>Learn from industry experts and gain hands-on experience with Oracle technologies</p>
+                </div>
+                <div class="feature-card animate-slide-up-delay">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Community</h3>
+                    <p>Join a vibrant community of learners and tech enthusiasts</p>
+                </div>
+                <div class="feature-card animate-slide-up-delay-2">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certification</h3>
+                    <p>Earn industry-recognized Oracle certifications to boost your career</p>
+<a href="javascript:void(0)" id="viewCertBtn" class="cert-link">View Certificates</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Info Section -->
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-item">
+                    <h3>150+</h3>
+                    <p>Students Trained</p>
+                </div>
+                <div class="info-item">
+                    <h3>2+</h3>
+                    <p>Workshops Conducted</p>
+                </div>
+                <div class="info-item">
+                    <h3>100%</h3>
+                    <p>Placement Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-section">
+                  <div class="footer-brand">
+                      <img src="images/logo.jpeg" alt="Oracle Academy Logo" class="footer-logo">
+                      <span class="footer-brand-text">Oracle Academy</span>
+                  </div>
+                  <p class="footer-description">Empowering the next generation of technology leaders through Oracle's comprehensive educational program.</p>
+              </div>
+              <div class="footer-section">
+                  <h4>Quick Links</h4>
+                  <ul class="footer-links">
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="committee.html">Committee</a></li>
+                      <li><a href="events.html">Events</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                  </ul>
+              </div>
+              <div class="footer-section">
+                  <h4>Contact Info</h4>
+                  <div class="contact-info">
+                      <p><i class="fas fa-map-marker-alt"></i> M. H. Saboo Siddik College of Engineering, Mumbai</p>
+                      <p><i class="fas fa-envelope"></i> oracle.academy@mhssce.ac.in</p>
+                      <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                  </div>
+              </div>
+              <div class="footer-section">
+                  <h4>Follow Us</h4>
+                  <div class="social-links">
+                      <a href="https://www.linkedin.com/in/oracle-academy-mhssce-6514ba387/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                      <a href="https://www.instagram.com/oracle_mhsscoe/" class="social-link"><i class="fab fa-instagram"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2026 Oracle Academy - M. H. Saboo Siddik College of Engineering. All rights reserved.</p>
+          </div>
+      </div>
+    </footer>
+
+    <!-- Modal for Certificates -->
+    <div id="certModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <div class="cert-gallery">
+          <img src="images/certificate/4cb89f9d-960f-4942-8ecf-4b8a879b3d35.jpeg" class="cert-thumb" alt="Certificate 1">
+          <img src="images/certificate/certificate aci ai_page-0001.jpg" class="cert-thumb" alt="Certificate 2">
+          <img src="images/certificate/eCertificate copy_page-0001.jpg" class="cert-thumb" alt="Certificate 3">
+          <img src="images/certificate/eCertificate_AnasRazaKhan_page-0001.jpg" class="cert-thumb" alt="Certificate 3">
+         <img src="images/certificate/eCertificate_copy_page-0001.jpg" class="cert-thumb" alt="Certificate 3">
+          <img src="images/certificate/eCertificate_page-0001.jpg" class="cert-thumb" alt="Certificate 3">
+
+       
+        </div>
+      </div>
+    </div>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // --------- Certification Modal Logic ---------
+      const viewCertBtn = document.getElementById('viewCertBtn');
+      const certModal = document.getElementById('certModal');
+      const closeModal = document.getElementById('closeModal');
+      if (viewCertBtn && certModal && closeModal) {
+        viewCertBtn.onclick = function() { certModal.style.display = 'block'; };
+        closeModal.onclick = function() { certModal.style.display = 'none'; };
+        window.onclick = function(event) {
+          if (event.target === certModal) {
+            certModal.style.display = 'none';
+          }
+        };
+      }
+      const certThumbs = document.querySelectorAll('.cert-thumb');
+      if (certThumbs.length) {
+        certThumbs.forEach(img => {
+          img.onclick = function() { window.open(img.src, '_blank'); };
+        });
+      }
+    });
+    </script>
+</body>
+</html>
