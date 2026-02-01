@@ -90,7 +90,7 @@
                             <img src="images/ambassador/Mariyam Usmani.jpg" alt="Vice President">
                         </div>
                         <div class="member-info">
-                            <h3 class="member-name">Usmani Maryam</h3>
+                            <h3 class="member-name">Usmani Mariyam</h3>
                             <p class="member-role">Vice President</p>
                            
                         </div>
@@ -279,5 +279,28 @@
         </div>
     </footer>
 
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Mobile Menu Toggle Logic
+      const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+      const nav = document.querySelector('.nav');
+      
+      if (mobileMenuToggle && nav) {
+        mobileMenuToggle.addEventListener('click', () => {
+          mobileMenuToggle.classList.toggle('active');
+          nav.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a nav link
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            mobileMenuToggle.classList.remove('active');
+            nav.classList.remove('active');
+          });
+        });
+      }
+    });
+    </script>
 </body>
 </html>

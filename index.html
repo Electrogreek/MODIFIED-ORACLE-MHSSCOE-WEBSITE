@@ -191,6 +191,26 @@
 
     <script>
     document.addEventListener("DOMContentLoaded", () => {
+      // --------- Mobile Menu Toggle Logic ---------
+      const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+      const nav = document.querySelector('.nav');
+      
+      if (mobileMenuToggle && nav) {
+        mobileMenuToggle.addEventListener('click', () => {
+          mobileMenuToggle.classList.toggle('active');
+          nav.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a nav link
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            mobileMenuToggle.classList.remove('active');
+            nav.classList.remove('active');
+          });
+        });
+      }
+
       // --------- Certification Modal Logic ---------
       const viewCertBtn = document.getElementById('viewCertBtn');
       const certModal = document.getElementById('certModal');
